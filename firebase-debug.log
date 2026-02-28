@@ -1,0 +1,199 @@
+[debug] [2026-02-28T16:35:12.239Z] ----------------------------------------------------------------------
+[debug] [2026-02-28T16:35:12.249Z] Command:       /Users/xuanchen/.nvm/versions/node/v20.20.0/bin/node /Users/xuanchen/.nvm/versions/node/v20.20.0/bin/firebase emulators:start
+[debug] [2026-02-28T16:35:12.250Z] CLI Version:   15.8.0
+[debug] [2026-02-28T16:35:12.250Z] Platform:      darwin
+[debug] [2026-02-28T16:35:12.251Z] Node Version:  v20.20.0
+[debug] [2026-02-28T16:35:12.251Z] Time:          Sun Mar 01 2026 00:35:12 GMT+0800 (Malaysia Time)
+[debug] [2026-02-28T16:35:12.251Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-02-28T16:35:16.347Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-28T16:35:16.348Z] > authorizing via signed-in user (kaixuanchen16@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting, extensions"}}
+[debug] [2026-02-28T16:35:16.368Z] Checked if tokens are valid: true, expires at: 1772298253662
+[debug] [2026-02-28T16:35:16.369Z] Checked if tokens are valid: true, expires at: 1772298253662
+[debug] [2026-02-28T16:35:16.373Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/traffic-butter [none]
+[debug] [2026-02-28T16:35:17.758Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/traffic-butter 200
+[debug] [2026-02-28T16:35:17.759Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/traffic-butter {"projectNumber":"113395536319","projectId":"traffic-butter","lifecycleState":"ACTIVE","name":"Traffic-Butter","labels":{"firebase":"enabled","firebase-core":"disabled","earth-engine":""},"createTime":"2026-02-13T05:20:39.304701Z"}
+[debug] [2026-02-28T16:35:23.234Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] ⚠  hosting: Hosting Emulator unable to start on port 5000, starting on 5002 instead. {"metadata":{"emulator":{"name":"hosting"},"message":"Hosting Emulator unable to start on port 5000, starting on 5002 instead."}}
+[debug] [2026-02-28T16:35:23.238Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2026-02-28T16:35:23.240Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5002}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2026-02-28T16:35:23.255Z] Write emulator hub locator at /var/folders/qt/0qnzq_cn5t56c7f97yhgmhz00000gn/T/hub-traffic-butter.json
+[debug] [2026-02-28T16:35:23.278Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2026-02-28T16:35:25.549Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2026-02-28T16:35:25.549Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2026-02-28T16:35:25.549Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2026-02-28T16:35:25.550Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5002}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, firestore, database, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, firestore, database, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2026-02-28T16:35:25.590Z] defaultcredentials: writing to file /Users/xuanchen/.config/firebase/kaixuanchen16_gmail_com_application_default_credentials.json
+[debug] [2026-02-28T16:35:25.600Z] Setting GAC to /Users/xuanchen/.config/firebase/kaixuanchen16_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/xuanchen/.config/firebase/kaixuanchen16_gmail_com_application_default_credentials.json"}}
+[debug] [2026-02-28T16:35:25.603Z] Checked if tokens are valid: true, expires at: 1772298253662
+[debug] [2026-02-28T16:35:25.603Z] Checked if tokens are valid: true, expires at: 1772298253662
+[debug] [2026-02-28T16:35:25.603Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/traffic-butter/adminSdkConfig [none]
+[debug] [2026-02-28T16:35:26.003Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/traffic-butter/adminSdkConfig 200
+[debug] [2026-02-28T16:35:26.004Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/traffic-butter/adminSdkConfig {"projectId":"traffic-butter","storageBucket":"traffic-butter.firebasestorage.app"}
+[debug] [2026-02-28T16:35:26.059Z] Checked if tokens are valid: true, expires at: 1772298253662
+[debug] [2026-02-28T16:35:26.060Z] Checked if tokens are valid: true, expires at: 1772298253662
+[debug] [2026-02-28T16:35:26.061Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/traffic-butter/sites 
+[debug] [2026-02-28T16:35:26.921Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/traffic-butter/sites 200
+[debug] [2026-02-28T16:35:26.922Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/traffic-butter/sites {"sites":[{"name":"projects/traffic-butter/sites/traffic-butter","defaultUrl":"https://traffic-butter.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2026-02-28T16:35:26.923Z] Checked if tokens are valid: true, expires at: 1772298253662
+[debug] [2026-02-28T16:35:26.923Z] Checked if tokens are valid: true, expires at: 1772298253662
+[debug] [2026-02-28T16:35:26.924Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/traffic-butter/webApps/-/config [none]
+[debug] [2026-02-28T16:35:27.537Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/traffic-butter/webApps/-/config 200
+[debug] [2026-02-28T16:35:27.538Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/traffic-butter/webApps/-/config {"projectId":"traffic-butter","storageBucket":"traffic-butter.firebasestorage.app","apiKey":"AQ.Ab8RN6KpHENmURk6rc5vMa-1jvm1FkWEhFW0-icnKohJGVNvIg","authDomain":"traffic-butter.firebaseapp.com","messagingSenderId":"113395536319","projectNumber":"113395536319","version":"2"}
+[debug] [2026-02-28T16:35:27.600Z] Checked if tokens are valid: true, expires at: 1772298253662
+[debug] [2026-02-28T16:35:27.600Z] Checked if tokens are valid: true, expires at: 1772298253662
+[debug] [2026-02-28T16:35:27.601Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/traffic-butter [none]
+[debug] [2026-02-28T16:35:27.886Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/traffic-butter 200
+[debug] [2026-02-28T16:35:27.886Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/traffic-butter {"projectId":"traffic-butter","projectNumber":"113395536319","displayName":"Traffic-Butter","name":"projects/traffic-butter","resources":{"hostingSite":"traffic-butter"},"state":"ACTIVE","etag":"1_b5df70b6-1817-4b0e-ba2e-47530b53224d"}
+[info] ✔  hosting[traffic-butter]: Local server: http://127.0.0.1:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5002\u001b[22m\u001b[24m"}}
+[debug] [2026-02-28T16:35:28.291Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "/Users/xuanchen/Desktop/traffic-butter/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/xuanchen/Desktop/traffic-butter/functions\" for Cloud Functions..."}}
+[debug] [2026-02-28T16:35:28.321Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2026-02-28T16:35:30.685Z] > [functions] package.json contents: {
+  "name": "trafficai-functions",
+  "description": "Firebase Cloud Functions for TrafficAI — Vertex AI bridge",
+  "version": "1.0.0",
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "@google-cloud/vertexai": "^1.10.0",
+    "firebase-admin": "^12.0.0",
+    "firebase-functions": "^5.0.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2026-02-28T16:35:30.685Z] Building nodejs source
+[debug] [2026-02-28T16:35:30.686Z] Failed to find version of module node: reached end of search path /Users/xuanchen/Desktop/traffic-butter/functions/node_modules
+[info] ✔  functions: Using node@20 from host. 
+[debug] [2026-02-28T16:35:30.697Z] Could not find functions.yaml. Must use http discovery
+[debug] [2026-02-28T16:35:30.727Z] Found firebase-functions binary at '/Users/xuanchen/Desktop/traffic-butter/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8981
+
+[debug] [2026-02-28T16:35:34.271Z] Got response from /__/functions.yaml {"endpoints":{"getAITrafficTiming":{"availableMemoryMb":256,"timeoutSeconds":30,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","region":["asia-southeast1"],"labels":{},"httpsTrigger":{},"entryPoint":"getAITrafficTiming"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2026-02-28T16:35:38.381Z] defaultcredentials: writing to file /Users/xuanchen/.config/firebase/kaixuanchen16_gmail_com_application_default_credentials.json
+[debug] [2026-02-28T16:35:38.383Z] Setting GAC to /Users/xuanchen/.config/firebase/kaixuanchen16_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/xuanchen/.config/firebase/kaixuanchen16_gmail_com_application_default_credentials.json"}}
+[info] ✔  functions: Loaded functions definitions from source: getAITrafficTiming. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: getAITrafficTiming."}}
+[info] ✔  functions[asia-southeast1-getAITrafficTiming]: http function initialized (http://127.0.0.1:5001/traffic-butter/asia-southeast1/getAITrafficTiming). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/traffic-butter/asia-southeast1/getAITrafficTiming)."}}
+[debug] [2026-02-28T16:35:38.407Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator   │ Host:Port      │ View in Emulator UI              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Functions  │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Hosting    │ 127.0.0.1:5002 │ n/a                              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2026-02-28T16:36:57.816Z] File /Users/xuanchen/Desktop/traffic-butter/functions/package.json changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/xuanchen/Desktop/traffic-butter/functions/package.json changed, reloading triggers"}}
+[debug] [2026-02-28T16:36:58.819Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2026-02-28T16:37:03.166Z] > [functions] package.json contents: {
+  "name": "trafficai-functions",
+  "description": "Firebase Cloud Functions for TrafficAI — Vertex AI bridge",
+  "version": "1.0.0",
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "@google-cloud/vertexai": "^1.10.0",
+    "firebase-admin": "^12.0.0",
+    "firebase-functions": "^5.0.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2026-02-28T16:37:03.166Z] Building nodejs source
+[debug] [2026-02-28T16:37:03.166Z] Failed to find version of module node: reached end of search path /Users/xuanchen/Desktop/traffic-butter/functions/node_modules
+[info] ✔  functions: Using node@20 from host. 
+[debug] [2026-02-28T16:37:03.170Z] Could not find functions.yaml. Must use http discovery
+[debug] [2026-02-28T16:37:03.174Z] Found firebase-functions binary at '/Users/xuanchen/Desktop/traffic-butter/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8771
+
+[debug] [2026-02-28T16:37:05.958Z] Got response from /__/functions.yaml {"endpoints":{"getAITrafficTiming":{"availableMemoryMb":256,"timeoutSeconds":30,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","region":["asia-southeast1"],"labels":{},"httpsTrigger":{},"entryPoint":"getAITrafficTiming"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2026-02-28T16:37:10.102Z] defaultcredentials: writing to file /Users/xuanchen/.config/firebase/kaixuanchen16_gmail_com_application_default_credentials.json
+[debug] [2026-02-28T16:37:10.105Z] Setting GAC to /Users/xuanchen/.config/firebase/kaixuanchen16_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/xuanchen/.config/firebase/kaixuanchen16_gmail_com_application_default_credentials.json"}}
+[info] ✔  functions: Loaded functions definitions from source: getAITrafficTiming. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: getAITrafficTiming."}}
+[info] i  hosting: 127.0.0.1 - - [28/Feb/2026:16:37:18 +0000] "GET / HTTP/1.1" 200 - "http://127.0.0.1:4000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Feb/2026:16:37:18 +0000] \"GET / HTTP/1.1\" 200 - \"http://127.0.0.1:4000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Feb/2026:16:37:19 +0000] "GET /app.js HTTP/1.1" 200 - "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Feb/2026:16:37:19 +0000] \"GET /app.js HTTP/1.1\" 200 - \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Feb/2026:16:37:25 +0000] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Feb/2026:16:37:25 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\""}}
+[debug] [2026-02-28T16:39:28.254Z] File /Users/xuanchen/Desktop/traffic-butter/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/xuanchen/Desktop/traffic-butter/functions/index.js changed, reloading triggers"}}
+[debug] [2026-02-28T16:39:28.352Z] File /Users/xuanchen/Desktop/traffic-butter/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/xuanchen/Desktop/traffic-butter/functions/index.js changed, reloading triggers"}}
+[debug] [2026-02-28T16:39:29.360Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2026-02-28T16:39:30.818Z] > [functions] package.json contents: {
+  "name": "trafficai-functions",
+  "description": "Firebase Cloud Functions for TrafficAI — Vertex AI bridge",
+  "version": "1.0.0",
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "@google-cloud/vertexai": "^1.10.0",
+    "firebase-admin": "^12.0.0",
+    "firebase-functions": "^5.0.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2026-02-28T16:39:30.819Z] Building nodejs source
+[debug] [2026-02-28T16:39:30.819Z] Failed to find version of module node: reached end of search path /Users/xuanchen/Desktop/traffic-butter/functions/node_modules
+[info] ✔  functions: Using node@20 from host. 
+[debug] [2026-02-28T16:39:30.826Z] Could not find functions.yaml. Must use http discovery
+[debug] [2026-02-28T16:39:30.834Z] Found firebase-functions binary at '/Users/xuanchen/Desktop/traffic-butter/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8877
+
+[debug] [2026-02-28T16:39:31.885Z] Got response from /__/functions.yaml {"endpoints":{"getAITrafficTiming":{"availableMemoryMb":256,"timeoutSeconds":30,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","region":["asia-southeast1"],"labels":{},"httpsTrigger":{},"entryPoint":"getAITrafficTiming"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2026-02-28T16:39:35.909Z] defaultcredentials: writing to file /Users/xuanchen/.config/firebase/kaixuanchen16_gmail_com_application_default_credentials.json
+[debug] [2026-02-28T16:39:35.910Z] Setting GAC to /Users/xuanchen/.config/firebase/kaixuanchen16_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/xuanchen/.config/firebase/kaixuanchen16_gmail_com_application_default_credentials.json"}}
+[info] ✔  functions: Loaded functions definitions from source: getAITrafficTiming. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: getAITrafficTiming."}}
